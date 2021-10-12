@@ -1,0 +1,186 @@
+body { 
+  margin: 0;
+} 
+
+.logo { 
+  width: 50px; 
+  height: 50px; 
+  
+}
+
+.header { 
+  display: flex; 
+  justify-content: space-between; 
+  padding-right: 150px; 
+  padding-left: 150px; 
+  background-color: #1F2937;
+}  
+
+ul { 
+  list-style-type: none;
+}
+
+.left.links { 
+  display: flex;
+} 
+
+.right.links { 
+  display: flex; 
+  gap: 10px; 
+  font-size: 18px; 
+  color: #E5e7eb
+} 
+
+.logo { 
+  font-size: 24px; 
+  color: #f9faf8
+} 
+
+.second { 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-evenly;  
+  background-color: #1F2937; 
+  padding: 50px;
+} 
+
+.Image { 
+  display: flex; 
+}  
+
+.lagotto{ 
+  height: auto; 
+  width: auto;
+}
+
+.left { 
+  display: flex;  
+  flex-direction: column; 
+  gap: 20px;
+}  
+
+.Main.text { 
+  font-size: 48px; 
+  font-weight: bold; 
+  color: #f9faf8; 
+  
+} 
+
+.para { 
+  font-size: 18px; 
+  color: #e5e7eb
+}
+
+button { 
+  background-color: #3882F6; 
+  color: white; 
+  border-radius: 10px; 
+  max-width: 100px; 
+  padding: 10px; 
+  border-style: none;
+}  
+
+.third { 
+  padding-top: 30px; 
+  padding-bottom: 100px;
+}
+
+.third.header { 
+  display: flex; 
+  background-color: white; 
+  justify-content: center; 
+  font-size: 36px; 
+  font-weight: bold; 
+  color: #1F2937;  
+  padding: 10px;
+}
+
+
+.cards { 
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center; 
+} 
+
+ .one, .two, .three, .four, .five{ 
+   display: flex; 
+   border: 4px #3882F6 solid; 
+   border-radius: 5%;
+ } 
+
+ #image1, #image2, #image3, #image4 {  
+   width: 200px; 
+   height: 200px; 
+   object-fit: scale-down;
+ } 
+
+ .caption{ 
+   display: flex;
+ } 
+
+ .card1, .card2, .card3, .card4 { 
+   display: flex; 
+   flex-direction: column; 
+   align-items: center;
+ } 
+
+ .fourth {  
+   display: flex; 
+   flex-direction: column;
+   background-color: #e5e7eb; 
+   font-size: 36px; 
+   font-family: "Light Italic"; 
+   color: #1f2937; 
+   padding: 100px;
+ } 
+
+ .signature { 
+   display: flex; 
+   justify-content: flex-end; 
+   color: #1F2937;  
+   font-size: 18px; 
+   font-weight: bolder;
+ } 
+
+ .fifth { 
+   display: flex; 
+   justify-content: center; 
+   padding: 100px;
+ } 
+
+ .container { 
+   display: flex;  
+   background-color: #3882F6; 
+   padding: 50px; 
+   align-items: center;  
+   gap: 200px; 
+   border-radius: 25px;
+ } 
+
+ .box { 
+   display: flex; 
+   flex-direction: column; 
+   font-size: 24px; 
+   color: white;  
+ } 
+
+ .button2 { 
+   border: 2px white solid;
+ } 
+
+ .smaller.text { 
+   font-size: 15px;
+ } 
+
+ .larger.text { 
+   font-weight: bold; 
+ } 
+
+ .footer { 
+   display: flex; 
+   justify-content: center; 
+   padding: 30px; 
+   background-color: #1F2937; 
+   color: #e5e7eb; 
+   font-size: 18px;
+ }
